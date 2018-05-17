@@ -1,4 +1,4 @@
-package com.anythy.multidatasource;
+package com.anythy.app;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

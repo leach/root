@@ -1,12 +1,13 @@
-package com.anythy.multidatasource;
+package com.anythy.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MultiDatasourceApplication {
+public class MultiDSApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MultiDatasourceApplication.class, args);
+
+		SpringApplication.run(MultiDSApplication.class, args);
 	}
 }
