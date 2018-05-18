@@ -11,8 +11,10 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-@ConfigurationProperties("aicloud")
-public class AicloudDataSourceProperties {
+@ConfigurationProperties("multid")
+@Getter
+@Setter
+public class MultidDataSourceProperties {
     /**
      * 默认数据源
      */
@@ -48,7 +50,7 @@ public class AicloudDataSourceProperties {
 
     @Setter
     @Getter
-    private static class DetailProperties {
+    public static class DetailProperties {
         private String dataSourceName;
         private String url;
         private String username;
