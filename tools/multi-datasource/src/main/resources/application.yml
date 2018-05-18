@@ -3,12 +3,12 @@
 
 
 multid:
-  dataSource:
+  dataSource:  #默认数据源
         dataSourceName: default
         url: jdbc:mysql://localhost:3306/dmxt?useUnicode=true&characterEncoding=UTF-8
         username: leach
         password: leach
-  dataSources:
+  dataSources:  #其它数据源List
       - dataSourceName: test1
         url: jdbc:mysql://localhost:3306/one?useUnicode=true&characterEncoding=UTF-8
         username: leach
