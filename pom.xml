@@ -15,6 +15,9 @@
 
   <modules>
     <module>tools</module>
+      <module>task</module>
+      <module>fresh</module>
+    <module>fresh</module>
   </modules>
 
 

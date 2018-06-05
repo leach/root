@@ -12,7 +12,7 @@ import java.util.Map;
 @Mapper
 public interface UserMapper {
 
-    @Select("select * from user")
+    @Select("select * from1 user")
     List<Map<String, Object>> findAll();
 
     @Select("select * from user")
