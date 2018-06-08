@@ -11,4 +11,9 @@ public class PageController {
     public String index(){
         return "admin/index/index";
     }
+
+    @RequestMapping("/welcome")
+    public String welcome(){
+        return "admin/index/welcome";
+    }
 }
